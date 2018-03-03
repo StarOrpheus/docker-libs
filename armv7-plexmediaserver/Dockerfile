@@ -1,8 +1,8 @@
 FROM armv7/armhf-debian:8
 MAINTAINER "Mitz Amano <mitz@linux.com>"
 
-ENV VER=1.2.7.2987
-ENV SUM=1bef33a
+ENV VER=1.11.3.4803
+ENV SUM=c40bba82e
 ENV URL=https://downloads.plex.tv/plex-media-server/${VER}-${SUM}/PlexMediaServer-${VER}-${SUM}-arm7.spk
 ENV BUILD_DIR=/tmp/plexmediaserver
 ENV INSTALL_DIR=/opt/plexmediaserver
